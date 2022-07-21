@@ -20,7 +20,7 @@ def generator(pretrained=True, device="cpu", progress=True, check_hash=True):
         ckpt_url = known.get(pretrained, pretrained)
         pretrained = True
     else:
-        ckpt_url = known.get('face_paint_512_v2')
+        ckpt_url = known.get('best')
 
     if pretrained is True:
         state_dict = torch.hub.load_state_dict_from_url(
