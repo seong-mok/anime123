@@ -8,7 +8,7 @@ def generator(pretrained=True, device="cpu", progress=True, check_hash=True):
     known = {
         name: f"{release_url}/{name}.pt"
         for name in [
-            'celeba_distill', 'face_paint_512_v1', 'face_paint_512_v2', 'paprika'
+            'celeba_distill', 'face_paint_512_v1', 'face_paint_512_v2', 'paprika', 'best'
         ]
     }
 
